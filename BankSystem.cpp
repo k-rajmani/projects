@@ -11,7 +11,7 @@ protected:
 char name[70];
 int acnum;
 char actype[25];
-float balance;
+int balance;
 public:
 	void get();
 	void deposit();
@@ -120,9 +120,9 @@ switch(choice)
 	case 5:cout<<"Thanks for banking"<<endl<<endl;
 };
 
-cout<<"Press 1 to continue"<<endl;
+cout<<"Press 0 to continue"<<endl;
 cin>>k;
-if(k=1)
+if(k=0)
 {
 	goto jump;
 };
